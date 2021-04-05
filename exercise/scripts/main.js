@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', function() {
   var cards = document.querySelectorAll('.card');
   var selectedCards = [];
   var matchedCards = [];
-  var count = 0;
+
 
   cards.forEach(function(card) {
     card.addEventListener('click', function() {
